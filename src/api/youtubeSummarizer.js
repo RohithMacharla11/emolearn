@@ -1,7 +1,5 @@
 // youtubeSummarizer.js
-require('dotenv').config();
-const GROQ_API_KEY = process.env.GROQ_API_KEY; // ✅ Secure
-
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY; // ✅ Secure
 export async function summarizeYouTubeVideo(videoUrl, mode = 'summary') {
   // Extract video ID from YouTube URL
   const videoId = extractVideoId(videoUrl);

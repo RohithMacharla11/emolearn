@@ -1,6 +1,7 @@
 // groqGPT.js
-require('dotenv').config();
-const GROQ_API_KEY = process.env.GROQ_API_KEY; // ✅ Secure
+// require('dotenv').config();
+// const GROQ_API_KEY = process.env.GROQ_API_KEY; // ✅ Secure
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY; // ✅ Secure
 
 export async function askGroq(topic, mode = 'simple') {
   let prompt;

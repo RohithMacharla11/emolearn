@@ -9,8 +9,8 @@
   <i>Transform Learning Through Emotion-Driven Innovation</i>
   
   <br>
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+<!--   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"> -->
   <img src="https://img.shields.io/badge/typescript-77.3%25-blue" alt="TypeScript">
   <img src="https://img.shields.io/badge/languages-5-lightgrey" alt="Languages">
 </div>

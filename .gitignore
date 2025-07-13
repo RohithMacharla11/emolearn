@@ -1,0 +1,51 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+venv/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Bun
+bun.lockb
+
+# Environment variables
+.env
+.env.*
+
+# Logs and runtime data
+backend/emotion_log.json
+backend/emotion_log.csv
+
+# (Optional) If emotion_weights.json is generated or sensitive, uncomment the next line
+# backend/emotion_weights.json
+
+# Lock files (optional, comment out if you want to keep them)
+# package-lock.json
+# yarn.lock

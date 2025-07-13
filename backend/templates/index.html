@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Emotion Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ultimate Emotion Detection</h1>
+        <button id="startBtn">Start Detection</button>
+        <button id="stopBtn" disabled>Stop Detection</button>
+        <div id="speech">
+            <h2>Speech Recognition</h2>
+            <p>Status: <span id="speechRecognitionStatus">Not Listening</span></p>
+            <p>Transcription: <span id="transcriptionText">None</span></p>
+        </div>
+        <div id="status">
+            <h2>Module Status</h2>
+            <p>Facial Recognition: <span id="facialStatus">Not Ready</span></p>
+            <p>Speech Recognition: <span id="speechStatus">Not Ready</span></p>
+            <p>Mouse Interaction: <span id="mouseStatus">Not Ready</span></p>
+        </div>
+        <div id="emotions">
+            <h2>Detected Emotions</h2>
+            <p>Facial Emotion: <span id="facialEmotion">None</span></p>
+            <p>Speech Emotion: <span id="speechEmotion">None</span></p>
+            <p>Mouse Emotion: <span id="mouseEmotion">None</span></p>
+            <p>Final Emotion: <span id="finalEmotion">None</span></p>
+        </div>
+        <div id="interactionArea" class="interaction-area">
+            <p>Interact with this area by moving your mouse, clicking, or speaking.</p>
+            <button>Answer Question</button>
+            <button>Next Page</button>
+        </div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

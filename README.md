@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RohithMacharla11/emolearn/main/public/logo.png" alt="EMO_LEARN_NEXUS Logo" width="120" />
+  <img src="[https://raw.githubusercontent.com/RohithMacharla11/emolearn/main/public/logo.png](https://github.com/RohithMacharla11/emolearn/blob/main/src/assets/logo.jpg)" alt="EMO_LEARN Logo" width="120" />
   
   # EmoLearn
   
